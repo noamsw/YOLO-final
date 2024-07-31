@@ -1,0 +1,58 @@
+glass = ["Glass bottle", "Broken glass", "Glass jar","Glass cup", ]
+plastic_and_metal = [
+                    "Clear plastic bottle","Other plastic bottle", 
+                    "Disposable plastic cup","Other plastic cup",
+                    "Plastic lid","Spread tub", "Other plastic container",
+                    "Aerosol", "Drink can", "Food Can", 
+                    "Metal lid",]
+other_plastic = [
+            "Plastic bottle cap","Six pack rings", 
+            "Polypropylene bag", "Tupperware", "Disposable food container",
+            "Plastic glooves", "Plastic utensils", 
+            "Plastic straw", "Other plastic", "Plastic film","Single-use carrier bag",
+            "Garbage bag",]
+
+            
+# plastic = [
+#             "Clear plastic bottle","Other plastic bottle", "Plastic bottle cap",
+#             "Disposable plastic cup","Other plastic cup",
+#             "Plastic lid", "Six pack rings", 
+#             "Polypropylene bag", "Tupperware", "Disposable food container",
+#             "Other plastic container", "Plastic glooves", "Plastic utensils", 
+#             "Plastic straw", "Other plastic", "Plastic film","Single-use carrier bag",
+#             "Spread tub", "Garbage bag",]
+
+# metal = [
+#             "Aluminium foil", 
+#             "Metal bottle cap", "Aerosol", "Drink can", "Food Can", 
+#             "Metal lid", "Pop tab", "Scrap metal",]
+cigarette = ["Cigarette",]
+non_recyclable = [
+            "Aluminium blister pack", "Carded blister pack",
+            "Meal carton", "Pizza box",
+            "Paper cup", "Foam cup",
+            "Wrapping paper",
+            "Magazine paper", 
+            "Plastified paper bag",
+            "Other plastic wrapper", "Foam food container",
+            "Rope & strings", "Shoe", "Squeezable tube",
+            "Styrofoam piece", "Drink carton", "Crisp packet",]
+# non_recyclable = [
+#             "Aluminium blister pack", "Carded blister pack",
+#             "Meal carton", "Pizza box", "Cigarette",
+#             "Paper cup", "Foam cup",
+#             "Wrapping paper",
+#             "Magazine paper", 
+#             "Plastified paper bag",
+#             "Other plastic wrapper", "Foam food container",
+#             "Rope & strings", "Shoe", "Squeezable tube",
+#             "Styrofoam piece", "Drink carton", "Crisp packet",]
+
+other = ["Battery", "Unlabeled litter", "Aluminium foil", 
+            "Metal bottle cap",  "Pop tab", "Scrap metal", "Food waste",]
+# other = ["Battery", "Unlabeled litter", ]
+paper = [
+            "Corrugated carton", "Egg carton", "Toilet tube",
+            "Other carton", "Normal paper", "Paper bag",
+            "Tissues", "Paper straw",]
+# bio = ["Food waste",]

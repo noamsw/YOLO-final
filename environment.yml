@@ -1,0 +1,49 @@
+name: cs236781-hw
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  # common
+  - pillow >=7.1.2
+  - requests>=2.23.0
+  - jupyter
+  - numpy >=1.21.6
+  - pandas
+  - matplotlib >=3.2.2
+  - seaborn
+  - graphviz
+  - Cython
+  - ipython
+  - jupyterlab
+  - nodejs>=12.0
+  - pip
+  - pytest
+  - pytest-xdist
+  - python=3.8.12
+  - scikit-learn
+  - scipy >=1.4.1
+  - swig # needed to compile box2d
+  - tqdm >=4.64.0
+  - pip:
+    - roboflow
+    - ultralytics
+    - nbmerge
+    - torchviz
+    - scikit-image
+    - pycocotools
+  # pytorch
+  # Note for M1 macs: install this env with CONDA_SUBDIR=osx-64 (env var), as it
+  # can't be installed for the native (osx-arm64) architecture.
+  - pytorch=1.10.1
+  - mkl<2022 # prevents crash when importing torch on M1 mac via rosetta2
+  - cudatoolkit
+  - torchvision >=0.8.1
+  - torchtext
+  - opencv >=4.6.0
+  - pyyaml >=5.3.1
+  - shapely
+  - pyqt
+  
+platforms:
+  - linux-64
